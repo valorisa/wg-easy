@@ -46,7 +46,7 @@ And log in again.
 
 ### 2. Run WireGuard Easy
 
-To automatically install & run wg-easy, simply run:
+To automatically install & run wg-easy, simply run :
 
 <pre>
 docker run -d \
