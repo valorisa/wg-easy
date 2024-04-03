@@ -101,7 +101,7 @@ These options can be configured by setting environment variables using `-e KEY="
 
 ## Updating
 
-To update to the latest version, simply run:
+To update to the latest version, simply run :
 
 ```bash
 docker stop wg-easy
@@ -111,7 +111,7 @@ docker pull weejewel/wg-easy
 
 And then run the `docker run -d \ ...` command above again.
 
-With Docker Compose WireGuard Easy can be updated with a single command:
+With Docker Compose WireGuard Easy can be updated with a single command :
 `docker compose up --detach --pull always` (if an image tag is specified in the
 Compose file and it is not `latest`, make sure that it is changed to the desired
 one; by default it is omitted and
